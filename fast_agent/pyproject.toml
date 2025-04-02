@@ -1,0 +1,13 @@
+[project]
+name = "fast-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "assemblyai>=0.37.0",
+    "fast-agent-mcp>=0.1.13",
+]
+
+[tool.uv.workspace]
+members = ["servers/backblaze_mcp"]
